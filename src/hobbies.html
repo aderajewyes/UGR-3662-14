@@ -4,110 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/bulma.css">
 </head>
 <body>
     
-        <nav>
-            <div class="logo">
-                <img src="./images/ad.jpeg" alt="" width="30px" height="20px"> Aderajew
-            </div>
-            <button class="mobile">
-                <i class="fa-light fa-bars"></i>            
-            </button>
-            <ul>
-                <li><a href="">Home</a></li>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">About</button></li>
-                    <div class="dropdown-content">
-                        <a href="">Accomplishments</a>
-                        <a href="">Skills</a>
-                        <a href="">Hobbies</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">Services</button></li>
-                    <div class="dropdown-content">
-                        <a href="">Web development</a>
-                        <a href="">Web design</a>
-                        
-                    </div>
-                </div>
-                <li><a href="">Contacts</a></li>
-            </ul>
-            
-            
-        </nav>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <aside class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="./images/ad.jpeg" alt="Logo" width="30" height="20">
+                Aderajew Yeshiwendm
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </aside>
     
-    <main>
-        <header>
-            <h1>Hobbies list</h1>
+        <aside id="navbarBasicExample" class="navbar-menu">
+            <article class="navbar-end">
+                <a class="navbar-item" href="Home.html">
+                    Home
+                </a>
+                <section class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        About
+                    </a>
+                    <section class="navbar-dropdown">
+                        <a class="navbar-item" href="Accomplishments.html" target="_blank">Accomplishments</a>
+                        <a class="navbar-item" href="skills.html" target="_blank">Skills</a>
+                        <a class="navbar-item" href="hobbies.html" target="_blank">Hobbies</a>
+                    </section>
+                </section>
+                <section class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Services
+                    </a>
+                    <section class="navbar-dropdown">
+                        <a class="navbar-item" href="#">Web development</a>
+                        <a class="navbar-item" href="#">Web design</a>
+                    </section>
+                </section>
+                <a class="navbar-item" href="contacts.html" target="_blank">Contacts</a>
+            </article>
+        </aside>
+    </nav>
+    
+    
+    <main class="section hero is-fullheight has-background-success">
+        <header class="hero is-primary has-text-centered">
+            <h1 class="title">Hobbies list</h1>
             <p>here are the list of images of my hobbies</p>
             <p>hobbies that genuinely interest me and contribute to a well-rounded image of who am I</p>
 
         </header>
-        <div class="image-container">
-            <div class="bcImage1">
-                <p>playing</p>
-                <p>football</p>
-            </div>
-            <div class="bcImage2">
-                <p>playing</p>
-                <p>gaming</p>
-
-            </div>
-            <div class="bcImage3">
-                <p>tech </p>
-                <p>gadgets</p>
-            </div>
-            <div class="bcImage4">
-                <p>fitness and</p>
-                <p> wellness</p>
-            </div>
-            <div class="bcImage5">
-                <p>watching</p>
-                <p>movies</p>
-            </div>
-            <div class="bcImage6">
-                <p>reading</p>
-                <p>books</p>
-            </div>
-            <div class="bcImage7">
-                <p>traveling across</p>
-                <p>regions</p>
-            </div>
-            <div class="bcImage8">
-                <p>voluntery</p>
-                <p>activvities</p>
-            </div>
-            <div class="bcImage9">
-                <p>web</p>
-                <p>designing</p>
-            </div>
-            <div class="bcImage10">
-                <p>listening</p>
-                <p>Music</p>
-            </div>
-            <div class="bcImage11">
-                <p>art</p>
-                <p>works</p>
-            </div>
-            <div class="bcImage12">
-                <p>graphic</p>
-                <p>design</p>
-            </div>
-        </div>
+        <article class="container">
+        <section class="image-container">
+            
+                <figure class="column is-3-desktop is-4-tablet is-4-mobile has-background-image bcImage1">
+                
+                    <p class="has-text-info has-text-centered">playing</p>
+                    <p class="has-text-info has-text-centered">football</p>
+                </figure>
+                <figure class="column is-3-desktop is-4-tablet is-4-mobile has-background-image bcImage2">
+                    <p class="has-text-info has-text-centered">playing</p>
+                    <p class="has-text-info has-text-centered">gaming</p>
+                </figure>
+            
+                <figure class="column is-3-desktop is-4-tablet is-4-mobile has-background-image bcImage3">
+                    <p class="has-text-info has-text-centered">tech</p>
+                    <p class="has-text-info has-text-centered">gadgets</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage4">
+                    <p class="has-text-info has-text-centered">fitness and</p>
+                    <p class="has-text-info has-text-centered">wellness</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage5">
+                    <p class="has-text-info has-text-centered">watching</p>
+                    <p class="has-text-info has-text-centered">movies</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage6">
+                    <p class="has-text-info has-text-centered">reading</p>
+                    <p class="has-text-info has-text-centered">books</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage7">
+                    <p class="has-text-info has-text-centered">traveling across</p>
+                    <p class="has-text-info has-text-centered">regions</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage8">
+                    <p class="has-text-info has-text-centered">voluntary</p>
+                    <p class="has-text-info has-text-centered">activities</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage9">
+                    <p class="has-text-info has-text-centered">web</p>
+                    <p class="has-text-info has-text-centered">designing</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage10">
+                    <p class="has-text-info has-text-centered">listening</p>
+                    <p class="has-text-info has-text-centered">Music</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage11">
+                    <p class="has-text-info has-text-centered">art</p>
+                    <p class="has-text-info has-text-centered">works</p>
+                </figure>
+                <figure class="column is-3-desktop is-3-tablet is-4-mobile has-background-image bcImage12">
+                    <p class="has-text-info has-text-centered">graphic</p>
+                    <p class="has-text-info has-text-centered">design</p>
+                </figure>
+            </section>
+        </article>
     </main>
-    <footer>
-        <img src="./images/ad.jpeg" alt="" width="30px" height="20px"> 
-        <p class="left"> Aderajew Yeshiwendm</p>
-        <p class="right">Copyright © 2023 Aderajew.</p>
-        <p class="right">my proficiency level is junior</p>
-        
-
-    
+    <footer class="footer has-background-black">
+        <section class="columns container">
+            <img class="column logo" src="./images/ad.jpeg" width="30" height="20" alt="">
+            
+            <p class="column has-text-info-light">Aderajew Yeshiwendm</p>
+            <p class="column has-text-info-light">Copyright © 2023 Aderajew.</p>
+            <p class="column has-text-info-light"> my proficiency level is junior</p>
+            
+        </section>
     </footer>
     
-    
+    <script src="./js/bulma.js"></script>
 </body>
 </html>
