@@ -1,0 +1,89 @@
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .home{
+    background-image: url(/images/webDevelopment.jpeg) ;
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size:  cover;
+        background-color: #999;
+  }
+  .skills{
+    background: url(/images/webDevelopment.jpeg) repeat;
+  }
+  .bcImage1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/football.jpeg) repeat;
+  }
+  .bcImage2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/gaming.jpeg) repeat;
+  }
+  .bcImage3 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/techGadgets.jpeg) repeat;
+  }
+  .bcImage4 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/fitnessAndWellness.jpeg) repeat;
+  }
+  .bcImage5 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/movie.jpeg) repeat;
+  }
+  .bcImage6 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/reaading.jpeg) repeat;
+  }
+  .bcImage7 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/travel.jpeg) repeat;
+  }
+  .bcImage8 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/volunter.png) repeat;
+  }
+  .bcImage9 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/webDevelopment.jpeg) repeat;
+  }
+  .bcImage10 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/music.jpeg) repeat;
+  }
+  .bcImage11 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: url(/images/art.jpeg) repeat;
+  }
+  .bcImage12 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background:url(/images/graphicDesign.jpeg) repeat ;
+  }
