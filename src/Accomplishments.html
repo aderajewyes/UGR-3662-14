@@ -4,76 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
 <body>
+
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <aside class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <img src="./images/ad.jpeg" alt="Logo" >
+            Aderajew Yeshiwendm
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </aside>
+
+    <aside id="navbarBasicExample" class="navbar-menu">
+        <article class="navbar-end">
+            <a class="navbar-item" href="Home.html" target="_blank">
+                Home
+            </a>
+            <section class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    About
+                </a>
+                <section class="navbar-dropdown">
+                    <a class="navbar-item" href="Accomplishments.html" target="_blank">Accomplishments</a>
+                    <a class="navbar-item" href="skills.html" target="_blank">Skills</a>
+                    <a class="navbar-item" href="hobbies.html" target="_blank">Hobbies</a>
+                </section>
+            </section>
+            <section class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Services
+                </a>
+                <section class="navbar-dropdown">
+                    <a class="navbar-item" href="#">Web development</a>
+                    <a class="navbar-item" href="#">Web design</a>
+                </section>
+            </section>
+            <a class="navbar-item" href="contacts.html" target="_blank">Contacts</a>
+        </article>
+    </aside>
+</nav>
+
+<main class="section has-background-danger">
+    <article class="container">
     
-        <nav>
-            <div class="logo">
-                <img src="./images/ad.jpeg" alt="" width="30px" height="20px"> 
-                Aderajew Yeshiwendm
-            </div>
-            <button class="mobile">
-                <i class="fa-light fa-bars"></i>            
-            </button>
-            <ul>
-                <li><a href="">Home</a></li>
+        <h1 class="title"> Here Are My Accomplishments AS A</h1>
+        <p class="subtitle">Passionate Web Developer | HTML, CSS, JavaScript, React | Bringing Designs to Life and</p>
+        <p class="subtitle">Versatile Web Developer | CMS Integration | Continuous Learner of New Technologies</p>
+
+        <article class="columns is-8">
+            <section class="column">
+                <h2 class="title">React projects</h2>
+                <p class="subtitle">here I've added some frontend projects</p>
+                <p class="subtitle">you can see them by clicking on them </p>
                 
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">About</button></li>
-                    <div class="dropdown-content">
-                        <a href="Accomplishments.html" target="_blank">Accomplishments</a>
-                        <a href="skills.html" target="_blank">Skills</a>
-                        <a href="hobbies.html" target="_blank">Hobbies</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">Services</button></li>
-                    <div class="dropdown-content">
-                        <a href="">Web development</a>
-                        <a href="">Web design</a>
-                        
-                    </div>
-                </div>
-                <li><a href="contacts.html" target="_blank">Contacts</a></li>
-            </ul>
+                <iframe class="box column" src="https://www.youtube.com/embed/_W3R2VwRyF4?si=66udKsQJ9E3gZxKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                
+                <iframe class="box column" src="https://www.youtube.com/embed/bmpI252DmiI?si=5fHBN87q_JHNCqYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                
             
+            </section>
+            <section class="column">
+                <h2 class="title">CMS projects</h2>
+                <p class="subtitle">here I've added content management projects</p>
+                <p class="subtitle">done by me</p>
+                
+                <iframe class="box column" src="https://www.youtube.com/embed/cRMH0M-BdWk?si=iMymuLvnxSGJUqR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                
+                <iframe class="box column" src="https://www.youtube.com/embed/H41k9PJ_jbg?si=5uL8piUh55xkvstm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                
             
-        </nav>
+            </section>
+            
+        </article>
+    </article>
     
-    <main>
-        <header>
-            <h1> Here Are My Accomplishments AS A</h1>
-            <p>Passionate Web Developer | HTML, CSS, JavaScript, React | Bringing Designs to Life and</p>
-            <p>Versatile Web Developer | CMS Integration | Continuous Learner of New Technologies</p>
-        </header>
-        <section class="sec1">
-            <h2>
-                React projects
-            </h2>
-            <p>here i've have added some frontend projects</p>
-            <p>you can see them by clicking on them </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_W3R2VwRyF4?si=66udKsQJ9E3gZxKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bmpI252DmiI?si=5fHBN87q_JHNCqYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</main>
 
-        </section>
-        <section class="sec2">
-            <h2>
-                CMS projects
-            </h2>
-            <p>here i've added content management projects</p>
-            <p>done by me</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cRMH0M-BdWk?si=iMymuLvnxSGJUqR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/H41k9PJ_jbg?si=5uL8piUh55xkvstm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-    </main>
-    <footer>
-        <img src="./images/ad.jpeg" alt="" width="30px" height="20px"> 
-        <p class="left"> Aderajew Yeshiwendm</p>
-        <p class="right">Copyright © 2023 Aderajew.</p>
-        <p class="right">my proficiency level is junior</p>
+<footer class="footer has-background-black">
+    <div class="columns container">
+        <img class="column logo" src="./images/ad.jpeg" alt="">
         
+        <p class="column has-text-info-light">Aderajew Yeshiwendm</p>
+        <p class="column has-text-info-light">Copyright © 2023 Aderajew.</p>
+        <p class="column has-text-info-light"> my proficiency level is junior</p>
+        
+    </div>
+</footer>
 
-    </footer>
+<script src="./js/bulma.js">
     
+</script>
+
 </body>
 </html>
