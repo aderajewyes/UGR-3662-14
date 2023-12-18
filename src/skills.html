@@ -4,86 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/bulma.css">
 </head>
 <body>
-    
-        <nav>
-            <div class="logo">
-                <img src="./images/ad.jpeg" alt=""> Aderajew Yeshiwendm
-            </div>
-            <button class="mobile">
-                <i class="fa-light fa-bars"></i>            
-            </button>
-            <ul>
-                <li><a href="">Home</a></li>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">About</button></li>
-                    <div class="dropdown-content">
-                       <li> <a href="Accomplishments.html" target="_blank">Accomplishments</a></li>
-                        <li><a href="skills.html" target="_blank">Skills</a></li>
-                        <li><a href="hobbies.html" target="_blank">Hobbies</a></li>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">Services</button></li>
-                    <div class="dropdown-content">
-                        <li><a href="">Web development</a></li>
-                        <li><a href="">Web design</a></li>
-                        
-                    </div>
-                </div>
-                <li><a href="contacts.html" target="_blank">Contacts</a></li>
-            </ul>
-            
-            
-        </nav>
-    
-    <main>
-        <div class="bcImage">
 
-        </div>
-        <article class="one">
-        <header>
-            <h1>web design</h1>
-        </header>
-
-        <section>
-            <h2>here are my web design Skills</h2>
-            <ul>
-                <li>UI/UX Design</li>
-                <li>Wireframing</li>
-                <li>Prototyping</li>
-                <li>Using tools such as Figma</li>
-            </ul>
-        </section>
-        </article>
-        <article class="two">
-        <header>
-            <h1>web development</h1>
-        </header>
-
-        <section>
-            <h2>web development Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Front-End Frameworks/Libraries:</li>
-                <li>Server Side Languages</li>
-            </ul>
-        </section>
-        </article>
-    </main>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <aside class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="./images/ad.jpeg" alt="Logo">
+                Aderajew Yeshiwendm
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </aside>
     
-    <footer>
-        <img src="./images/ad.jpeg" alt=""> 
-        <p class="left"> Aderajew Yeshiwendm</p>
-        <p class="right">Copyright © 2023 Aderajew.</p>
-        <p class="right">my proficiency level is junior</p>
+        <aside id="navbarBasicExample" class="navbar-menu">
+            <article class="navbar-end">
+                <a class="navbar-item" href="Home.html" target="_blank">
+                    Home
+                </a>
+                <section class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        About
+                    </a>
+                    <section class="navbar-dropdown">
+                        <a class="navbar-item" href="Accomplishments.html" target="_blank">Accomplishments</a>
+                        <a class="navbar-item" href="skills.html" target="_blank">Skills</a>
+                        <a class="navbar-item" href="hobbies.html" target="_blank">Hobbies</a>
+                    </section>
+                </section>
+                <section class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Services
+                    </a>
+                    <section class="navbar-dropdown">
+                        <a class="navbar-item" href="#">Web development</a>
+                        <a class="navbar-item" href="#">Web design</a>
+                    </section>
+                </section>
+                <a class="navbar-item" href="contacts.html" target="_blank">Contacts</a>
+            </article>
+        </aside>
+    </nav>
+
+
+<main class=" hero is-fullheight">
+    <section class="hero is-fullheight has-background-image skills">
+
+    </section>
+    <section class="columns has-background-success">
+    <article class="column">
+    <header>
+        <h1 class="title has-text-info">web design</h1>
+    </header>
+
+    <section>
+        <h2 class="title has-text-link">here are my web design Skills</h2>
+        <ul>
+            <li>UI/UX Design</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Using tools such as Figma</li>
+        </ul>
+    </section>
+    </article>
+    <article class="column">
+    <header>
+        <h1 class="title has-text-info">web development</h1>
+    </header>
+
+    <section>
+        <h2 class="title has-text-link">web development Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Front-End Frameworks/Libraries:</li>
+            <li>Server Side Languages</li>
+        </ul>
+    </section>
+    </article>
+    </section>
+
+</main>
+
+
+<footer class="footer has-background-black">
+    <section class="columns container">
+        <img class="logo" src="./images/ad.jpeg" alt="">
         
-
-    
-    </footer>
-    
+        <p class="column has-text-info-light">Aderajew Yeshiwendm</p>
+        <p class="column has-text-info-light">Copyright © 2023 Aderajew.</p>
+        <p class="column has-text-info-light"> my proficiency level is junior</p>
+        
+    </section>
+</footer>
+<script src="./js/bulma.js"></script>
 </body>
 </html>
