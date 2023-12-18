@@ -4,77 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+   
 </head>
 <body>
-    
-        <nav>
-            <div class="logo">
-                <img src="./images/ad.jpeg" alt="" width="30px" height="20px"> Aderajew
-            </div>
-            <button class="mobile">
-                <i class="fa-light fa-bars"></i>            
-            </button>
-            <ul>
-                <li><a href="">Home</a></li>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">About</button></li>
-                    <div class="dropdown-content">
-                        <a href="Accomplishments.html" target="_blank">Accomplishments</a>
-                        <a href="skills.html" target="_blank">Skills</a>
-                        <a href="hobbies.html" target="_blank">Hobbies</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <li><button class="dropdown-btn">Services</button></li>
-                    <div class="dropdown-content">
-                        <a href="">Web development</a>
-                        <a href="">Web design</a>
-                        
-                    </div>
-                </div>
-                <li><a href="contacts.html" target="_blank">Contacts</a></li>
-            </ul>
-            
-            
-        </nav>
-   
-    <main>
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <aside class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <img src="./images/ad.jpeg" alt="Logo">
+            Aderajew Yeshiwendm
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </aside>
+
+    <aside id="navbarBasicExample" class="navbar-menu">
+        <article class="navbar-end">
+            <a class="navbar-item" href="Home.html" target="_blank">
+                Home
+            </a>
+            <section class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    About
+                </a>
+                <section class="navbar-dropdown">
+                    <a class="navbar-item" href="Accomplishments.html" target="_blank">Accomplishments</a>
+                    <a class="navbar-item" href="skills.html" target="_blank">Skills</a>
+                    <a class="navbar-item" href="hobbies.html" target="_blank">Hobbies</a>
+                </section>
+            </section>
+            <section class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Services
+                </a>
+                <section class="navbar-dropdown">
+                    <a class="navbar-item" href="#">Web development</a>
+                    <a class="navbar-item" href="#">Web design</a>
+                </section>
+            </section>
+            <a class="navbar-item" href="contacts.html" target="_blank">Contacts</a>
+        </article>
+    </aside>
+</nav>
+    <main class="has-background-info">
         <header>
-            <h1>You can contact me using these list of contacts</h1>
+          <h1 class="title has-text-centered">You can contact me using these list of contacts</h1>
         </header>
-        <section class="one">
-            <table>
-                <tr>
-                    <th>social media</th>
-                    <th>my contact</th>
-                </tr>
-                <tr>
+        <article class="columns">
+          <section class="section column">
+            <div class="container">
+              <table class="table is-fullwidth">
+                <thead>
+                  <tr>
+                    <th>Social Media</th>
+                    <th>My Contact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
                     <td><img src="./images/facebook.png" alt=""></td>
                     <td>https://www.facebook.com/profile.php?id=61553098255218</td>
-                </tr>
-                <tr>
+                  </tr>
+                  <tr>
                     <td><img src="./images/email.png" alt=""></td>
                     <td>adeyeshi294@gmail.com</td>
-                </tr>
-                <tr>
+                  </tr>
+                  <tr>
                     <td><img src="./images/telegram.png" alt=""></td>
                     <td>@AD_YESH</td>
-                </tr>
-            </table>
-        </section>
-        <section class="two">
-            <p>Feel Free To Contact Me At Any Time!
-            using phone call my number 
-        </p>
-            <p>+251977658826</p>
-        </section>
-    </main>
-    <footer>
-        <img src="./images/ad.jpeg" alt="" width="30px" height="20px"> 
-        <p class="left"> Aderajew Yeshiwendm</p>
-        <p class="right">Copyright © 2023 Aderajew.</p>
-        <p class="right">my proficiency level is junior</p>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section class="section column">
+            <div class="container">
+              <p>Feel Free To Contact Me At Any Time!
+                using phone call my number</p>
+              <p class="has-text-success">+251977658826</p>
+            </div>
+          </section>
+        </article>
+      </main>
+    
+    <footer class="footer has-background-black">
+        <div class="columns container">
+            <img class="column logo" src="./images/ad.jpeg" alt="">
+            
+            <p class="column has-text-info-light">Aderajew Yeshiwendm</p>
+            <p class="column has-text-info-light">Copyright © 2023 Aderajew.</p>
+            <p class="column has-text-info-light"> my proficiency level is junior</p>
+            
+        </div>
     </footer>
     
 </body>
